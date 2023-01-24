@@ -3,7 +3,7 @@ Var
    i, produto : inteiro
 inicio
 
-      para i de 1 ate 10 faca
+      para i de 1 ate 12 faca
            produto <- n * i
            escreval(n," x ",i," = ",produto)
       fimpara
