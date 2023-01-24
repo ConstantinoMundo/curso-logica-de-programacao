@@ -1,4 +1,4 @@
-funcao realToDolar(cotacao: real; quantia: real): real
+funcao realParaDolar(cotacao: real; quantia: real): real
 inicio
       retorne quantia / cotacao
 fimfuncao
@@ -9,6 +9,7 @@ Var
 
 
 Inicio
+
       escreva("Digite a cotacao do dolar: ")
       leia(cotacao)
       escreva("Digite a quantia em reais: ")
